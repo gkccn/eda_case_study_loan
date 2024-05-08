@@ -6,7 +6,6 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -15,6 +14,19 @@
 - Loan Approval process needs to be improvised as there are still a lot of loan defaulters
 - Avoid having a Loan Defaulters as its a loss to the business
 - loan.csv dataset is being used
+
+<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+## Technologies Used
+| Package    | Version                                                             |
+|------------|---------------------------------------------------------------------|
+| Python     | 3.8.19 (default, Mar 20 2024, 19:55:45) [MSC v.1916 64 bit (AMD64)] |
+| Matplotlib | 3.7.2                                                               |
+| Numpy      | 1.24.3                                                              |
+| Pandas     | 2.0.3                                                               |
+| Seaborn    | 0.12.2                                                              |
+
+<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -41,18 +53,4 @@
 - For Debt-to-Income ratios of 11-26, there are chances of loan default.
 - For more inquiries in credit status of the applicant in last 6 months have higher chances of default
 - With number of derogatory public records between 0-2 , there are higher chances of default. Even in case of higher than 2, it seem the value is 0. So for any number of pub_rec there needs to be proper investigation for loan approval
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-| Package    | Version                                                             |
-|------------|---------------------------------------------------------------------|
-| Python     | 3.8.19 (default, Mar 20 2024, 19:55:45) [MSC v.1916 64 bit (AMD64)] |
-| Matplotlib | 3.7.2                                                               |
-| Numpy      | 1.24.3                                                              |
-| Pandas     | 2.0.3                                                               |
-| Seaborn    | 0.12.2                                                              |
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
